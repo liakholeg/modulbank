@@ -81,10 +81,10 @@ export default (() => {
 				{"    "}
 				<StackItem width="48%" display="flex" lg-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" justify-content="center" />
-					<Text font="700 46px/1.25 --fontFamily-googleRoboto" color="#253c77" sm-font="700 30px/1.25 --fontFamily-googleRoboto">
+					<Text font="700 46px/1.25 --fontFamily-googleRoboto" color="#253c77" sm-font="700 30px/1.25 --fontFamily-googleRoboto" sm-margin="100px 0px 16px 0px">
 						Приглашайте клиентов
 						<br />
-						и получайте деньги!
+						и получайте деньги
 					</Text>
 					<Text color="#707070" font="400 22px/1.6 --fontFamily-googleRoboto" sm-font="400 18px/1.6 --fontFamily-googleRoboto" />
 					<Button
