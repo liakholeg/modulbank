@@ -64,6 +64,9 @@ export default (() => {
 					</Button>
 					<Components.MobileMenu display="none" lg-display="block">
 						<Override slot="icon" lg-background="#FAFAFA" lg-padding="10px 10px 10px 10px" />
+						<Override slot="menu" lg-background="#FFFFFF">
+							<Override slot="link" />
+						</Override>
 					</Components.MobileMenu>
 					{"    "}
 				</StackItem>
@@ -313,7 +316,7 @@ export default (() => {
 		</Section>
 		<Section padding="24px 0 120px 0">
 			<Override slot="SectionContent" max-width="1200px" />
-			<Text color="#707070" font="15px --fontFamily-googleRoboto" margin="160px 0px 40px 0px">
+			<Text color="#707070" font="15px --fontFamily-googleRoboto" margin="160px 0px 40px 0px" nout-font="normal 400 14px/2 --fontFamily-googleRoboto">
 				КТО МЫ?
 			</Text>
 			<Text font="700 46px/1.25 --fontFamily-googleRoboto" color="#253c77" margin="10px 0px 0px 0px" lg-width="60%">
@@ -684,9 +687,10 @@ export default (() => {
 						background="#FAFAFA"
 						position="relative"
 						z-index="2"
+						nout-padding="0px 0px 0px 0"
 					>
 						<Override slot="StackItemContent" />
-						<Stack padding="0px 60px 0px 60px" width="100%" margin="-16px 0px -16px 0px">
+						<Stack padding="0px 60px 0px 60px" width="100%" margin="-16px 0px -16px 0px" nout-width="90%">
 							{"    "}
 							<StackItem width="33.3%" display="flex" lg-width="100%">
 								{"        "}
@@ -769,6 +773,10 @@ export default (() => {
 							lg-left="auto"
 							lg-right="-760px"
 							lg-top="-383px"
+							nout-bottom="auto"
+							nout-left="auto"
+							nout-right="-1178px"
+							nout-top="-307px"
 						/>
 						<Image
 							width="487.0504556962025px"
@@ -797,7 +805,7 @@ export default (() => {
 				</Stack>
 			</Section>
 		</Section>
-		<Section padding="0 0 40px 0">
+		<Section padding="0 0 40px 0" nout-padding="0 0 0 0">
 			<Override slot="SectionContent" max-width="none" width="100%" />
 			<Image width="100%" src="https://static.tildacdn.com/tild6233-3931-4136-a236-613932323535/_14.svg" />
 			<Section background="#FAFAFA" padding="0 0 100px 0">
@@ -909,6 +917,7 @@ export default (() => {
 				md-margin="200px 0 0 0"
 				sm-margin="0px 0 0 0"
 				sm-padding="200px 0 2px 0"
+				nout-padding="0 0 0 0"
 			>
 				<Override slot="SectionContent" max-width="1200px" padding="24px 0px 24px 0px" />
 				<Stack>
