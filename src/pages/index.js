@@ -712,7 +712,13 @@ export default (() => {
 						lg-width="80%"
 					>
 						<Override slot="StackItemContent" />
-						<Stack padding="0px 60px 0px 60px" width="100%" margin="-16px 0px -16px 0px" nout-width="90%">
+						<Stack
+							padding="0px 60px 0px 60px"
+							width="100%"
+							margin="-16px 0px -16px 0px"
+							nout-width="90%"
+							sm-padding="10px 10px 10px 10px"
+						>
 							{"    "}
 							<StackItem width="33.3%" display="flex" lg-width="100%">
 								{"        "}
@@ -780,7 +786,7 @@ export default (() => {
 						</Stack>
 						{"        "}{"    "}
 					</StackItem>
-					<StackItem width="1%" display="flex">
+					<StackItem width="1%" display="flex" sm-display="none">
 						<Override slot="StackItemContent" position="relative" />
 						<Image
 							width="157.27256944444446px"
