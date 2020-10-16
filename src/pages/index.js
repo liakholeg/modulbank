@@ -666,7 +666,7 @@ export default (() => {
 				>
 					Начать привлекать клиентов — легко
 				</Text>
-				<Stack max-width="1160px">
+				<Stack max-width="1160px" lg-justify-content="center">
 					{"    "}
 					<StackItem width="98%" display="flex" position="relative">
 						<Image
@@ -678,6 +678,7 @@ export default (() => {
 							bottom="-278.06312183544304px"
 							left="-112.281px"
 							right="-51.443346518987354px"
+							lg-display="none"
 						/>
 						<Image
 							width="74.73200308641977px"
@@ -689,6 +690,14 @@ export default (() => {
 							left="-35px"
 							right="auto"
 							z-index="4"
+							lg-bottom="-710px"
+							lg-left="11px"
+							lg-right="auto"
+							lg-top="auto"
+							sm-bottom="-1003px"
+							sm-left="0px"
+							sm-right="auto"
+							sm-top="auto"
 						/>
 						{"        "}{"    "}
 					</StackItem>
@@ -700,6 +709,7 @@ export default (() => {
 						position="relative"
 						z-index="2"
 						nout-padding="0px 0px 0px 0"
+						lg-width="80%"
 					>
 						<Override slot="StackItemContent" />
 						<Stack padding="0px 60px 0px 60px" width="100%" margin="-16px 0px -16px 0px" nout-width="90%">
@@ -811,6 +821,7 @@ export default (() => {
 							lg-z-index="1"
 							lg-height="202.41625287356325px"
 							lg-width="427.03399856321835px"
+							lg-display="none"
 						/>
 						{"        "}{"    "}
 					</StackItem>
@@ -841,6 +852,7 @@ export default (() => {
 							required
 							font="normal 400 16px/1 --fontFamily-googleRoboto"
 							color="#b8b8b8"
+							nout-color="#f20c0c"
 						/>
 						<Input
 							width="90%"
