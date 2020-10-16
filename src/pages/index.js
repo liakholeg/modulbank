@@ -91,7 +91,7 @@ export default (() => {
 						<br />
 						и получайте деньги!
 					</Text>
-					<Text color="#707070" font="400 22px/1.6 --fontFamily-googleRoboto" sm-font="400 18px/1.6 --fontFamily-googleRoboto" />
+					<Text color="#707070" font="400 22px/1.6 --fontFamily-googleRoboto" />
 					<Button
 						border-color="#707070"
 						background="#8cca11"
