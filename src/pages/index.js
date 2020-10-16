@@ -652,7 +652,7 @@ export default (() => {
 			<Override slot="SectionContent" max-width="100%" width="100%" />
 			<Image width="100%" src="https://uploads.quarkly.io/5f8218543d84d4001ec38b66/images/image%201.svg?v=2020-10-12T14:51:09.634Z" margin="0px 0px 0px 0px" background="#ffffff" />
 			<Section padding="24px 0 120px 0">
-				<Override slot="SectionContent" max-width="1200px" />
+				<Override slot="SectionContent" max-width="1160px" />
 				<Text font="700 46px/1.25 --fontFamily-googleRoboto" color="#253c77" margin="90px 0px 0px 0px" sm-font="700 30px/1.25 --fontFamily-googleRoboto">
 					Как стать партнёром Модульбанка
 				</Text>
@@ -666,7 +666,7 @@ export default (() => {
 				>
 					Начать привлекать клиентов — легко
 				</Text>
-				<Stack>
+				<Stack max-width="1160px">
 					{"    "}
 					<StackItem width="98%" display="flex" position="relative">
 						<Image
@@ -710,7 +710,7 @@ export default (() => {
 									display="flex"
 									flex-direction="column"
 									margin="0px 0px 10px 0px"
-									padding="0px 0px 0px 0px"
+									padding="0px 20px 0px 20px"
 									lg-width="100%"
 								>
 									<Text color="#8cca11" font="700 46px/1.45 --fontFamily-googleRoboto">
@@ -730,7 +730,7 @@ export default (() => {
 									display="flex"
 									flex-direction="column"
 									margin="0px 0px 10px 0px"
-									padding="0px 0px 0px 0px"
+									padding="0px 20px 0px 20px"
 									lg-width="100%"
 								>
 									<Text font="700 46px/1.45 --fontFamily-googleRoboto" color="#8cca11">
@@ -751,7 +751,7 @@ export default (() => {
 									display="flex"
 									flex-direction="column"
 									margin="0px 0px 10px 0px"
-									padding="0px 0px 0px 0px"
+									padding="0px 20px 0px 20px"
 									lg-width="100%"
 								>
 									<Text font="700 46px/1.45 --fontFamily-googleRoboto" color="#8cca11">
@@ -795,10 +795,10 @@ export default (() => {
 							height="299.15718670886076px"
 							position="absolute"
 							src="https://uploads.quarkly.io/5f8218543d84d4001ec38b66/images/Frame%209%201.png?v=2020-10-13T13:06:56.169Z"
-							top="-579px"
+							top="-514px"
 							bottom="auto"
-							left="487.953px"
-							right="-1088.3046875px"
+							left="auto"
+							right="-1028px"
 							nout-bottom="auto"
 							nout-left="auto"
 							nout-right="-959px"
@@ -833,13 +833,22 @@ export default (() => {
 					<StackItem width="50%" display="flex" md-width="100%">
 						<Override slot="StackItemContent" flex-direction="column" />
 						{"        "}
-						<Input width="90%" height="64px" placeholder="Введите имя" margin="10px 0px 10px 0px" />
+						<Input
+							width="90%"
+							height="64px"
+							placeholder="Введите имя"
+							margin="10px 0px 10px 0px"
+							required
+							font="normal 400 16px/1 --fontFamily-googleRoboto"
+							color="#b8b8b8"
+						/>
 						<Input
 							width="90%"
 							height="64px"
 							placeholder="+7 (999) 99-99-99"
 							margin="10px 0px 10px 0px"
 							type="tel"
+							font="normal 400 16px/1 --fontFamily-googleRoboto"
 						/>
 						<Input
 							width="90%"
@@ -847,6 +856,7 @@ export default (() => {
 							placeholder="Ваш e-mail"
 							margin="10px 0px 10px 0px"
 							type="email"
+							font="normal 400 16px/1 --fontFamily-googleRoboto"
 						/>
 						<Text font="14px --fontFamily-googleRoboto" color="#707070">
 							Я согласен с
