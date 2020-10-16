@@ -20,7 +20,11 @@ export default {
 		"5f8218543d84d4001ec38b6b": {
 			"id": "5f8218543d84d4001ec38b6b",
 			"name": "index",
-			"pageUrl": "index"
+			"pageUrl": "index",
+			"styles": {
+				"overflow-x": "hidden",
+				"overflow-y": "hidden"
+			}
 		},
 		"5f8342b93d84d4001ec38e6d": {
 			"id": "5f8342b93d84d4001ec38e6d",
