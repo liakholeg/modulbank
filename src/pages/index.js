@@ -318,7 +318,7 @@ export default (() => {
 		</Section>
 		<Section padding="24px 0 120px 0">
 			<Override slot="SectionContent" max-width="1200px" />
-			<Text color="#707070" font="15px --fontFamily-googleRoboto" margin="160px 0px 40px 0px" nout-font="normal 400 14px/2 --fontFamily-googleRoboto">
+			<Text color="#707070" font="700 14px/1.6 --fontFamily-googleRoboto" margin="160px 0px 40px 0px" nout-font="normal 400 14px/2 --fontFamily-googleRoboto">
 				КТО МЫ?
 			</Text>
 			<Text font="700 46px/1.25 --fontFamily-googleRoboto" color="#253c77" margin="10px 0px 0px 0px" lg-width="60%">
@@ -549,8 +549,18 @@ export default (() => {
 		</Section>
 		<Section background="#FAFAFA">
 			<Override slot="SectionContent" max-width="1200px" />
-			<Text color="#707070" font="15px --fontFamily-googleRoboto" margin="0px 0px 40px 0px">
-				КТО МЫ?
+			<Text color="#707070" font="700 14px/1.6 --fontFamily-googleRoboto" margin="0px 0px 40px 0px">
+				<Span
+					font-weight="normal"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+				>
+					КТО МЫ?
+				</Span>
 			</Text>
 			<Text
 				font="700 46px/1.25 --fontFamily-googleRoboto"
