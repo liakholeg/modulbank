@@ -4,7 +4,7 @@ import { createGlobalStyle } from "styled-components";
 
 const pageStyles = {
     "index": {
-        "overflow-x": "hidden",
+        "overflow-x": "",
         "overflow-y": "hidden"
     }
 };

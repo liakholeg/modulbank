@@ -22,7 +22,7 @@ export default {
 			"name": "index",
 			"pageUrl": "index",
 			"styles": {
-				"overflow-x": "hidden",
+				"overflow-x": "",
 				"overflow-y": "hidden"
 			}
 		},
