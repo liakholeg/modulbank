@@ -23,7 +23,13 @@ export default (() => {
 				<StackItem width="25%" display="flex" lg-width="50%">
 					<Override slot="StackItemContent" />
 					{"        "}
-					<Image width="200px" height="53px" src="https://static.tildacdn.com/tild3861-3861-4464-b163-616164306334/Modulbank-logo-ru-rg.svg" display="flex" />
+					<Image
+						width="200px"
+						height="53px"
+						src="https://static.tildacdn.com/tild3861-3861-4464-b163-616164306334/Modulbank-logo-ru-rg.svg"
+						display="flex"
+						lg-margin="28px 0px 0px 0px"
+					/>
 					{"    "}
 				</StackItem>
 				{"    "}
@@ -65,9 +71,42 @@ export default (() => {
 						Стать партнером
 					</Button>
 					<Components.MobileMenu display="none" lg-display="block">
-						<Override slot="icon" lg-background="#FAFAFA" lg-padding="10px 10px 10px 10px" />
-						<Override slot="menu" lg-background="#FFFFFF">
-							<Override slot="link" />
+						<Override slot="icon" lg-background="#FAFAFA" lg-padding="10px 10px 10px 10px" lg-border-color="#000000" />
+						<Override
+							slot="menu"
+							lg-background="#FAFAFA"
+							lg-position="absolute"
+							lg-top="73.5px"
+							lg-right="46.375px"
+							lg-border-width="0px"
+							lg-border-color="#9e2c2c"
+							lg-width="180px"
+							md-padding="0px 0 0px 0px"
+							md-right="36.375px"
+							sm-right="25.375px"
+						>
+							<Override
+								slot="link"
+								lg-color="#707070"
+								lg-font="400 16px --fontFamily-googleRoboto"
+								lg-text-decoration-line="initial"
+								lg-hover-color="#98C741"
+							/>
+							<Override slot="link-404">
+								404
+							</Override>
+							<Override slot="item-404" lg-display="none" />
+							<Override slot="item-index" lg-display="none" />
+							<Override slot="item" lg-font="4 16px sans-serif" />
+							<Override slot="link-job">
+								Как работает
+							</Override>
+							<Override slot="link-bank">
+								О банке
+							</Override>
+							<Override slot="link-start">
+								Как начать
+							</Override>
 						</Override>
 					</Components.MobileMenu>
 					{"    "}
@@ -672,7 +711,7 @@ export default (() => {
 				>
 					Начать привлекать клиентов — легко
 				</Text>
-				<Stack max-width="1160px" lg-justify-content="center">
+				<Stack max-width="1160px" lg-justify-content="center" position="relative">
 					{"    "}
 					<StackItem width="98%" display="flex" position="relative">
 						<Image
@@ -812,34 +851,35 @@ export default (() => {
 							nout-right="-1178px"
 							nout-top="-307px"
 						/>
-						<Image
-							width="487.0504556962025px"
-							height="299.15718670886076px"
-							position="absolute"
-							src="https://uploads.quarkly.io/5f8218543d84d4001ec38b66/images/Frame%209%201.png?v=2020-10-13T13:06:56.169Z"
-							top="-514px"
-							bottom="auto"
-							left="auto"
-							right="-1028px"
-							nout-bottom="auto"
-							nout-left="auto"
-							nout-right="-959px"
-							nout-top="-578px"
-							lg-bottom="auto"
-							lg-left="auto"
-							lg-right="-752px"
-							lg-top="-922px"
-							lg-position="absolute"
-							lg-z-index="1"
-							lg-height="202.41625287356325px"
-							lg-width="427.03399856321835px"
-							lg-display="none"
-						/>
 						{"        "}{"    "}
 					</StackItem>
 				</Stack>
 			</Section>
 		</Section>
+		<Image
+			width="487.0504556962025px"
+			height="299.15718670886076px"
+			position="absolute"
+			src="https://uploads.quarkly.io/5f8218543d84d4001ec38b66/images/Frame%209%201.png?v=2020-10-13T13:06:56.169Z"
+			top="-250px"
+			bottom="auto"
+			left="auto"
+			right="-371px"
+			nout-bottom="auto"
+			nout-left="auto"
+			nout-right="-959px"
+			nout-top="-578px"
+			lg-bottom="auto"
+			lg-left="auto"
+			lg-right="-752px"
+			lg-top="-922px"
+			lg-position="absolute"
+			lg-z-index="1"
+			lg-height="202.41625287356325px"
+			lg-width="427.03399856321835px"
+			lg-display="none"
+			quarkly-title="ZENshina"
+		/>
 		<Section padding="0 0 40px 0" nout-padding="0 0 0 0">
 			<Override slot="SectionContent" max-width="none" width="100%" />
 			<Image width="100%" src="https://static.tildacdn.com/tild6233-3931-4136-a236-613932323535/_14.svg" />
