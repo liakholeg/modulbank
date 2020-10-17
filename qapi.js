@@ -22,8 +22,11 @@ export default {
 			"name": "index",
 			"pageUrl": "index",
 			"styles": {
-				"overflow-x": "",
-				"overflow-y": "hidden"
+				"overflow-x": "hidden",
+				"overflow-y": ""
+			},
+			"seo": {
+				"title": ""
 			}
 		},
 		"5f8342b93d84d4001ec38e6d": {

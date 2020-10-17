@@ -16,7 +16,7 @@ export default (() => {
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
-		<Section height="80px" padding="0px 0 0px 0" quarkly-title="HEADER">
+		<Section height="80px" padding="0px 0 0px 0" quarkly-title="HEADER" lazy-load={false}>
 			<Override slot="SectionContent" max-width="1200px" background="#ffffff" justify-content="center" />
 			<Stack gap="0px">
 				{"    "}
