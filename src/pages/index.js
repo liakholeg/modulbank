@@ -71,7 +71,7 @@ export default (() => {
 						Стать партнером
 					</Button>
 					<Components.MobileMenu display="none" lg-display="block">
-						<Override slot="icon" lg-background="#FAFAFA" lg-padding="10px 10px 10px 10px" lg-border-color="#000000" />
+						<Override slot="icon" lg-background="#FAFAFA" lg-padding="10px 10px 10px 10px" lg-border-color="#99C741" />
 						<Override
 							slot="menu"
 							lg-background="#FAFAFA"
@@ -149,7 +149,7 @@ export default (() => {
 					>
 						Стать партнером
 					</Button>
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 				{"    "}
 				<StackItem width="52%" display="flex" lg-width="100%" lg-margin="40px 0px 80px 0px">
@@ -713,6 +713,17 @@ export default (() => {
 				</Text>
 				<Stack max-width="1160px" lg-justify-content="center" position="relative">
 					{"    "}
+					<Image
+						width="487.0504556962025px"
+						height="299.15718670886076px"
+						position="absolute"
+						src="https://uploads.quarkly.io/5f8218543d84d4001ec38b66/images/Frame%209%201.png?v=2020-10-13T13:06:56.169Z"
+						top="-227px"
+						bottom="auto"
+						left="auto"
+						right="-35px"
+						quarkly-title="ZENshina"
+					/>
 					<StackItem width="98%" display="flex" position="relative">
 						<Image
 							width="195.71434651898736px"
@@ -744,7 +755,7 @@ export default (() => {
 							sm-right="auto"
 							sm-top="auto"
 						/>
-						{"        "}{"    "}
+						{"            "}
 					</StackItem>
 					{"    "}
 					<StackItem
@@ -756,7 +767,6 @@ export default (() => {
 						nout-padding="0px 0px 0px 0"
 						lg-width="80%"
 					>
-						<Override slot="StackItemContent" />
 						<Stack
 							padding="0px 60px 0px 60px"
 							width="100%"
@@ -804,7 +814,7 @@ export default (() => {
 										Вышлем ссылку на простую регистрацию
 									</Text>
 								</Box>
-								{"        "}{"    "}
+								{"            "}
 							</StackItem>
 							<StackItem width="33.3%" display="flex" lg-width="100%">
 								{"        "}
@@ -829,7 +839,7 @@ export default (() => {
 							</StackItem>
 							{"    "}
 						</Stack>
-						{"        "}{"    "}
+						{"            "}
 					</StackItem>
 					<StackItem width="1%" display="flex" sm-display="none">
 						<Override slot="StackItemContent" position="relative" />
@@ -851,35 +861,11 @@ export default (() => {
 							nout-right="-1178px"
 							nout-top="-307px"
 						/>
-						{"        "}{"    "}
+						{"            "}
 					</StackItem>
 				</Stack>
 			</Section>
 		</Section>
-		<Image
-			width="487.0504556962025px"
-			height="299.15718670886076px"
-			position="absolute"
-			src="https://uploads.quarkly.io/5f8218543d84d4001ec38b66/images/Frame%209%201.png?v=2020-10-13T13:06:56.169Z"
-			top="-250px"
-			bottom="auto"
-			left="auto"
-			right="-371px"
-			nout-bottom="auto"
-			nout-left="auto"
-			nout-right="-959px"
-			nout-top="-578px"
-			lg-bottom="auto"
-			lg-left="auto"
-			lg-right="-752px"
-			lg-top="-922px"
-			lg-position="absolute"
-			lg-z-index="1"
-			lg-height="202.41625287356325px"
-			lg-width="427.03399856321835px"
-			lg-display="none"
-			quarkly-title="ZENshina"
-		/>
 		<Section padding="0 0 40px 0" nout-padding="0 0 0 0">
 			<Override slot="SectionContent" max-width="none" width="100%" />
 			<Image width="100%" src="https://static.tildacdn.com/tild6233-3931-4136-a236-613932323535/_14.svg" />
@@ -999,7 +985,7 @@ export default (() => {
 			</Section>
 			<Section
 				background="#FAFAFA"
-				padding="0 0 2px 0"
+				padding="0 0 0px 0"
 				md-margin="200px 0 0 0"
 				sm-margin="0px 0 0 0"
 				sm-padding="200px 0 2px 0"
